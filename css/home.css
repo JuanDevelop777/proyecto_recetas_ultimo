@@ -16,6 +16,16 @@ body {
   background-color: #e6e6dd;
 }
 
+#modo_dark {
+  border-radius: 50%;
+  background-color: #ffecd6 ;
+  border: 0;
+  color: #008080; ;
+}
+.dark_mode {
+  background-color: black;
+}
+
 @media (0px <= width <= 768px) {
   header {
     background-color: #afbfae;
