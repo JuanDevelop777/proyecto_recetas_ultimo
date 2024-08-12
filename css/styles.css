@@ -11,6 +11,9 @@
     box-sizing: border-box;
     margin: 0;
 }
+body {
+    background-color: #e6e6dd;
+}
 
 @media (0px <= width <= 480px) {
 
@@ -41,6 +44,7 @@
         background-color: #ffecd6;
         padding: 10px;
         border-radius: 10px;
+        font-family: var(--lyric_2);
     }
 
     #imagen_1 {
@@ -54,6 +58,29 @@
         border-radius: 10px;
     }
 
+    main {
+        background-color: white;
+        padding: 15px;
+        margin: 15px;
+        border-radius: 10px;
+    }
+    h1, h2 {
+        font-family: var(--lyric_1);
+        padding: 15px;
+    }
+    #h2_1 {
+        background-color: #f5f0ea;
+        border-radius: 10px;
+    }
+    #ul_1{
+        padding-bottom: 15px;
+        font-family: var(--lyric_2);
+    }
+    p {
+        padding: 15px;
+        padding-top: 0;
+        font-family: var(--lyric_2);
+    }
 }
 
 @media (481px <= width <= 768px) {
