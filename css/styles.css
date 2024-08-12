@@ -126,6 +126,28 @@ body {
     padding-bottom: 0;
   }
 
+  footer {
+    background-color: #afbfae;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    margin-bottom: 0;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  #logo_2 {
+    width: 40%;
+  }
+  
+  #nav_2 {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+
 }
 
 @media (481px <= width <= 768px) {
