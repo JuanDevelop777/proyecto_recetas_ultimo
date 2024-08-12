@@ -43,8 +43,15 @@
         border-radius: 10px;
     }
 
+    #imagen_1 {
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+    }
+
     #imagen_1 img {
         width: 100%;
+        border-radius: 10px;
     }
 
 }
