@@ -24,6 +24,7 @@ body {
 }
 .dark_mode {
   background-color: black;
+  color: white;
 }
 
 @media (0px <= width <= 768px) {
@@ -44,6 +45,7 @@ body {
 
   #nav_1 {
     display: flex;
+    gap: 15px;
   }
 
   #nav_1 a {
@@ -80,6 +82,7 @@ body {
   }
   #contenedor label {
     font-family: var(--lyric_1);
+    color: black;
   }
   input,
   textarea {
@@ -134,6 +137,7 @@ body {
 
   #nav_1 {
     display: flex;
+    gap: 15px;
   }
 
   #nav_1 a {
@@ -224,6 +228,7 @@ body {
     
       #nav_1 {
         display: flex;
+        gap: 15px;
       }
     
       #nav_1 a {
