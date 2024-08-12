@@ -51,14 +51,15 @@ body {
     background-image: url("/img/foto_v2.jpg");
     height: 200px;
     margin: 15px;
-    color:white;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     font-family: var(--lyric_1);
   }
-  h2, h1 {
+  h2,
+  h1 {
     margin: 15px;
     font-family: var(--lyric_1);
   }
@@ -103,8 +104,185 @@ body {
     align-items: center;
     color: white;
   }
-
 }
 @media (769px <= width <= 1279px) {
+  header {
+    background-color: #afbfae;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+  }
 
+  #logo_1 {
+    width: 20%;
+  }
+
+  #nav_1 {
+    display: flex;
+    gap: 15px;
+    padding-top: 15px;
+  }
+
+  #nav_1 a {
+    text-decoration: none;
+    color: #008080;
+    background-color: #ffecd6;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: var(--lyric_2);
+  }
+
+  #foto_con_nombre {
+    background-image: url("/img/foto_v2.jpg");
+    height: 200px;
+    margin: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: var(--lyric_1);
+  }
+  h2,
+  h1 {
+    margin: 15px;
+    font-family: var(--lyric_1);
+  }
+  #contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  article {
+    background-color: white;
+    margin: 15px;
+    border-radius: 15px;
+  }
+  article img {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5%;
+  }
+
+  .ul_1 {
+    font-family: var(--lyric_2);
+    padding-bottom: 15px;
+  }
+
+  footer {
+    background-color: #afbfae;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    margin-bottom: 0;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  #logo_2 {
+    width: 20%;
+  }
+
+  #nav_2 {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+}
+
+@media (1270px <= width) {
+  header {
+    background-color: #afbfae;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  #logo_1 {
+    width: 20%;
+  }
+
+  #nav_1 {
+    display: flex;
+    gap: 15px;
+    padding-top: 15px;
+  }
+
+  #nav_1 a {
+    text-decoration: none;
+    color: #008080;
+    background-color: #ffecd6;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: var(--lyric_2);
+  }
+
+  #foto_con_nombre {
+    background-image: url("/img/foto_v2.jpg");
+    height: 200px;
+    margin: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: var(--lyric_1);
+  }
+  h2,
+  h1 {
+    margin: 15px;
+    font-family: var(--lyric_1);
+  }
+  #contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  article {
+    background-color: white;
+    margin: 15px;
+    border-radius: 15px;
+  }
+  article img {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5%;
+  }
+
+  .ul_1 {
+    font-family: var(--lyric_2);
+    padding-bottom: 15px;
+  }
+
+  footer {
+    background-color: #afbfae;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    margin-bottom: 0;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  #logo_2 {
+    width: 20%;
+  }
+
+  #nav_2 {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
 }
