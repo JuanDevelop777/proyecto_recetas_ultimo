@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="/css/home.css" />
+  </head>
+  <body>
+    <header>
+      <img id="logo_1" src="./img/Will (1)-Photoroom.png" alt="cafetin" />
+      <nav id="nav_1">
+        <a href="#">Regresar</a>
+      </nav>
+    </header>
+
+    <h1>Mandanos tus cafes!</h1>
+    <p>
+      Estoy buscando nuevas recetas de café para probar en casa. Si tienes
+      alguna receta favorita, ya sea un café clásico, un cappuccino, un latte
+      con algún toque especial, o incluso algo más creativo como un café helado
+      o con especias, ¡me encantaría que la compartieras! ¡Gracias de antemano
+      por tus deliciosas sugerencias! 😊
+    </p>
+    <div id="color_form">
+      <form id="contenedor" action="/submit" method="post">
+        <div>
+          <label for="nombre">Nombre De La Receta:</label>
+          <input type="text" id="nombre" name="nombre" required />
+        </div>
+        <div>
+          <label for="nombre">Tiempo De Preparacio:</label>
+          <input type="text" id="nombre" name="nombre" required />
+        </div>
+        <div>
+          <label for="opinion">Ingredientes</label>
+          <textarea id="opinion" name="opinion" rows="4" required></textarea>
+        </div>
+        <div>
+          <label for="opinion">Ingredientes</label>
+          <textarea id="opinion" name="opinion" rows="4" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <footer>
+      <img id="logo_2" src="./img/Will (1)-Photoroom.png" alt="cafetin" />
+      <nav id="nav_2">
+        <p>© 2024 Cafetin By Will</p>
+      </nav>
+    </footer>
+  </body>
+</html>
