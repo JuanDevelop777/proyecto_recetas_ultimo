@@ -15,7 +15,7 @@ body {
   background-color: #e6e6dd;
 }
 
-@media (0px <= width <= 480px) {
+@media (0px <= width <= 768px) {
   header {
     background-color: #afbfae;
     display: flex;
@@ -98,10 +98,10 @@ body {
   }
 
   table {
-    width: 100%; 
+    width: 100%;
   }
 
-  .tr_1{
+  .tr_1 {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid black;
@@ -119,7 +119,7 @@ body {
 
   .recetas img {
     width: 40%;
-    padding: 15px ;
+    padding: 15px;
   }
 
   .h2_especial {
@@ -141,17 +141,145 @@ body {
   #logo_2 {
     width: 40%;
   }
-  
+
   #nav_2 {
     display: flex;
     align-items: center;
     color: white;
   }
-
 }
 
-@media (481px <= width <= 768px) {
-  body {
-    background-color: violet;
+@media (769px <= width <= 1279px) {
+  header {
+    background-color: #afbfae;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 15px;
+  }
+
+  #logo_1 {
+    width: 20%;
+  }
+
+  #nav_1 {
+    display: flex;
+    gap: 15px;
+  }
+
+  #nav_1 a {
+    text-decoration: none;
+    color: #008080;
+    background-color: #ffecd6;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: var(--lyric_2);
+  }
+
+  #imagen_1 {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+  }
+
+  #imagen_1 img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  main {
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+  }
+
+  h1,
+  h2 {
+    font-family: var(--lyric_1);
+    padding: 15px;
+  }
+
+  #h2_1 {
+    background-color: #f5f0ea;
+    border-radius: 10px;
+  }
+
+  #ul_1 {
+    padding-bottom: 15px;
+    font-family: var(--lyric_2);
+  }
+
+  p {
+    padding: 15px;
+    padding-top: 0;
+    font-family: var(--lyric_2);
+  }
+
+  aside {
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+  }
+
+  #ul_2 {
+    font-family: var(--lyric_2);
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .tr_1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-right: 50px;
+  }
+
+  section {
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+  }
+  .recetas {
+    display: flex;
+  }
+
+  .recetas img {
+    width: 40%;
+    padding: 15px;
+  }
+
+  .h2_especial {
+    padding-bottom: 0;
+  }
+
+  footer {
+    background-color: #afbfae;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    margin-bottom: 0;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  #logo_2 {
+    width: 40%;
+  }
+
+  #nav_2 {
+    display: flex;
+    align-items: center;
+    color: white;
   }
 }
