@@ -147,7 +147,7 @@ body {
   }
 
   #foto_con_nombre {
-    background-image: url("/img/foto_v2.jpg");
+    background-image: url("../img/foto_v2.jpg");
     height: 200px;
     margin: 15px;
     color: white;
@@ -238,7 +238,7 @@ body {
   }
 
   #foto_con_nombre {
-    background-image: url("/img/foto_v2.jpg");
+    background-image: url("../img/foto_v2.jpg");
     height: 200px;
     margin: 15px;
     color: white;
