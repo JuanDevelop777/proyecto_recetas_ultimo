@@ -382,7 +382,7 @@ body {
     border-radius: 10px;
     display: grid;
     grid-column: 7 / 9 ;
-    grid-row: 1 / 5 ;
+    grid-row: 2 / 5 ;
   }
 
   #ul_2 {
@@ -407,7 +407,7 @@ body {
     border-radius: 10px;
     display: grid;
     grid-column: 7 / 9 ;
-    grid-row: 5 / 9 ;
+    grid-row: 5 / 8 ;
   }
   .recetas {
     display: flex;
